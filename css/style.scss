@@ -24,7 +24,7 @@ body{
 }
 
 .img_profil{
-	width: 12.313em;
+	width: 18.313em;
 
 	border-width: 0px 5px 0px 0px;
  	border-style:ridge;
@@ -39,7 +39,7 @@ body{
 .img_bann{
 	width: 34.375em;
 	height: auto;
-	margin-left: 15.625em;
+	margin-left: 11.625em;
 }
 
 .menu_cell_line1{
@@ -89,6 +89,7 @@ body{
 	display: inline;
 	width : 78.250em;
 	position: absolute;
+	margin-left: 55px;
 }
 
 /*					SIDEBAR					*/
@@ -99,6 +100,7 @@ body{
  	border-radius: 5px;
  	position: fixed;
  	bottom: 11%;
+
 }
 
 #sidebar2{
@@ -148,8 +150,8 @@ body{
 #maincontent{
 	padding: 4em 2em 0em 2em;
 	background-color: black;
-	width: 50.750em;
-	height: 13.1em;
+	width: auto;
+	height: auto;
 	color: white;
 	background-color: black;
  	border-radius: 5px;
@@ -169,6 +171,12 @@ body{
  	border-radius: 5px;
 
 }
+.img_container {
+
+	height: 30em;
+
+
+}
 
 ul{
 	text-indent: 2em;
@@ -182,6 +190,22 @@ p {
 	text-indent: 1em;
 	font-size: 1em;
 }
+
+.cssform{
+	text-align: center;
+clear: left;
+padding: 20px 0 20px 0;
+height: 1%;
+}
+
+.pform{
+padding: 20px 0 20px 0;
+}
+
+input{
+margin: 20px 0 20px 0;
+}
+
 
 /*					END MAIN CONTENT				*/
 /*					FOOTER				*/
